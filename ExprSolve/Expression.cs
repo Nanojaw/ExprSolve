@@ -5,14 +5,9 @@ namespace ExprSolve
 {
     public class Expression
     {
-        private Dictionary<char, int> _unknowns = new();
-
-        public Expression(string expr)
+        public Expression(string expr, Dictionary<char, int?> unknowns)
         {
-            foreach (char c in expr)
-            {
-                
-            }
+            
         }
     }
 }
